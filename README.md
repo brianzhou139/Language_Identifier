@@ -16,26 +16,30 @@ $ cmake -DCMAKE_BUILD_TYPE=Release ..
 $ cmake --build .
 ```
 
-
+You can test the resulting library file libtgcat.so on the test data using the test script libtgcat-tester.tar.gz. To do this, copy libtgcat.so into the directory containing the test script, then build with cmake in the standard way:
 
 ```sh
-$ git clone https://github.com/heroku/python-getting-started.git
-$ cd python-getting-started
-
-$ python3 -m venv getting-started
-$ pip install -r requirements.txt
-
-$ createdb python_getting_started
-
-$ python manage.py migrate
-$ python manage.py collectstatic
-
-$ heroku local
+$ mkdir build
+$ cd build
+$ cmake -DCMAKE_BUILD_TYPE=Release ..
+$ cmake --build .
 ```
 
+To test the library output, launch the resulting binary file tgcat-tester with the following parameters:
 
+```sh
+$ tgcat-tester language <input_file> <output_file>
+```
+where: 
+<input_file> – path to file containing input data,
+<output_file> – path to file containing output data.
 
-
+Output data is presented as a text file where each line represents processed channel data in JSON format:
+```sh
+$ {
+$   "lang_code": "en"
+$ }
+```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
