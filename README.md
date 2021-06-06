@@ -7,6 +7,16 @@ This library was my solution to a data clustering contest [Telegram Data Cluster
 ## Running Locally
 
 The library was tested on servers running Debian GNU/Linux 10 (buster), x86-64 with 8 cores and 16 GB RAM and will work correctly on any clean system.
+Use the following commands to build the library:
+
+```sh
+$ mkdir build
+$ cd build
+$ cmake -DCMAKE_BUILD_TYPE=Release ..
+$ cmake --build .
+```
+
+
 
 ```sh
 $ git clone https://github.com/heroku/python-getting-started.git
@@ -22,6 +32,10 @@ $ python manage.py collectstatic
 
 $ heroku local
 ```
+
+
+
+
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
