@@ -16,7 +16,7 @@ $ cmake -DCMAKE_BUILD_TYPE=Release ..
 $ cmake --build .
 ```
 
-You can test the resulting library file libtgcat.so on the test data using the test script libtgcat-tester.tar.gz. To do this, copy libtgcat.so into the directory containing the test script, then build with cmake in the standard way:
+You can test the resulting library file libtgcat.so on the test data using the test script [libtgcat-tester.tar.gz](https://data-static.usercontent.dev/libtgcat-tester.tar.gz). To do this, copy libtgcat.so into the directory containing the test script, then build with cmake in the standard way:
 
 ```sh
 $ mkdir build
@@ -36,25 +36,13 @@ where:
 
 Output data is presented as a text file where each line represents processed channel data in JSON format:
 ```sh
-$ {
-$   "lang_code": "en"
-$ }
+ {
+   "lang_code": "en"
+ }
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku main
-
-$ heroku run python manage.py migrate
-$ heroku open
-```
-or
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Documentation
 
