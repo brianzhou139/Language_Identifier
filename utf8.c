@@ -1,10 +1,3 @@
-//
-//  utf8.c
-//  Demo
-//
-//  Created by wjl on 2019/8/31.
-//  Copyright © 2019 ycan. All rights not reserved.
-//
 
 #include "utf8.h"
 #include "stdlib.h"
