@@ -41,11 +41,3 @@ Output data is presented as a text file where each line represents processed cha
  }
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-
-## Documentation
-
-For more information about using Python on Heroku, see these Dev Center articles:
-
-- [Python on Heroku](https://devcenter.heroku.com/categories/python)
