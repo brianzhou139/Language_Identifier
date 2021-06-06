@@ -2,7 +2,7 @@
 
 A C library that can determine the language of text
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
+This library was my solution to a data clustering contest [Telegram Data Clustering Contest 2021 ](https://contest.com/docs/dc2021-r1) article - check it out.
 
 ## Running Locally
 
