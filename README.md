@@ -1,6 +1,6 @@
 # Language_Identifier : Getting Started
 
-A C library that can determine the language of text in utf-8 encoding
+A C library that can determine the language of text
 
 This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
 
