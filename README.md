@@ -2,11 +2,11 @@
 
 A C library that can determine the language of text
 
-This library was my solution to a data clustering contest [Telegram Data Clustering Contest 2021 ](https://contest.com/docs/dc2021-r1) article - check it out.
+This library was my solution to a data clustering contest [Telegram Data Clustering Contest 2021 ](https://contest.com/docs/dc2021-r1) - check it out.
 
 ## Running Locally
 
-Make sure you have Python 3.9 [installed locally](https://docs.python-guide.org/starting/installation/). To push to Heroku, you'll need to install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), as well as [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
+The library was tested on servers running Debian GNU/Linux 10 (buster), x86-64 with 8 cores and 16 GB RAM and will work correctly on any clean system.
 
 ```sh
 $ git clone https://github.com/heroku/python-getting-started.git
