@@ -16,7 +16,7 @@ $ cmake -DCMAKE_BUILD_TYPE=Release ..
 $ cmake --build .
 ```
 
-You can test the resulting library file libtgcat.so on the test data using the test script [libtgcat-tester.tar.gz](https://data-static.usercontent.dev/libtgcat-tester.tar.gz). To do this, copy libtgcat.so into the directory containing the test script, then build with cmake in the standard way:
+You can test the resulting library file libtgcat.so on the [test](https://contest.com/docs/dc2021-r1#source-data) data using the test script [libtgcat-tester.tar.gz](https://data-static.usercontent.dev/libtgcat-tester.tar.gz). To do this, copy libtgcat.so into the directory containing the test script, then build with cmake in the standard way:
 
 ```sh
 $ mkdir build
